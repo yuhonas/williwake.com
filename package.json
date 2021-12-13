@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "browser-sync": "^2.27.7",
+    "tailwindcss": "^3.0.1"
+  },
+  "scripts": {
+    "build": "tailwindcss -i ./css/styles.css -o ./assets/site.css"
+  }
+}
